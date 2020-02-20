@@ -1,0 +1,44 @@
+.Form-component {
+    width: 39%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background: rgb(156, 21, 200);
+    background: linear-gradient(90deg, rgba(156, 21, 200, 1) 45%, rgba(48, 51, 179, 1) 100%); */
+    background-color: #0305088a;
+    color: aliceblue;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+label {
+    font-size: small;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.invalid-input{
+    border: 2px solid salmon;
+}
+
+@media screen and (max-width: 768px) {
+    .Form-component {
+        width: 85%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .Form-component {
+        width: 72%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Form-component {
+        width: 93%;
+        padding: 10px;
+    }
+}
